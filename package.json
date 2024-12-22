@@ -1,0 +1,24 @@
+{
+  "name": "playwright-qa-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test_ui": "cucumber-js test --require ts-node/register",
+    "test_api": "npx playwright test tests/apiTest.spec.ts",
+    "test_performance": "k6 run k6/loadTest.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.1.1",
+    "@playwright/test": "^1.49.1",
+    "@types/k6": "^0.54.2",
+    "@types/node": "^22.10.2",
+    "k6": "^0.0.0",
+    "multiple-cucumber-html-reporter": "^3.8.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}

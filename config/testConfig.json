@@ -1,0 +1,11 @@
+{
+    "uiTests":[
+        {
+        "url": "https://www.polestar.com/us",
+        "expTitle": "Polestar – Electric cars | Polestar US",
+        "invalidEmail": "muskankri@gmail.com",
+        "invalidPassword": "muskan123",
+        "expErrMsg": "We didn't recognize the username or password you entered. Please try again."
+    }
+]
+}

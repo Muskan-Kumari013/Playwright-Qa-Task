@@ -1,0 +1,47 @@
+{
+    "acceptAllButton": {
+    "role": "button",
+    "name": "Accept all"
+  },
+  "loginButton": "#L_aKvtA0TE-V7FLPcm1OLQ",
+  "emailField": "#email-username-field",
+  "passwordField": "#password-field",
+  "loginBtn": "#login-btn",
+  "errorMessage": "#errorSection .ps-filed-err-msg-box",
+  "polestar3Button": {
+    "role": "button",
+    "name": "Polestar 3"
+  },
+  "configureButton": {
+    "label": "Configure Polestar 3"
+  },
+  "motorOption": {
+    "role": "button",
+    "name": "Long range Dual motor with"
+  },
+  "colorOption": {
+    "label": "Midnight"
+  },
+  "leatherOption": {
+    "label": "Animal welfare Nappa leather in Jupiter with Black ash deco"
+  },
+  "upgradeOption": {
+    "label": "\" Pro"
+  },
+  "continueButton": {
+    "role": "button",
+    "name": "Continue"
+  },
+  "searchLocationTab": {
+    "role": "tab",
+    "name": "List view"
+  },
+  "locationButton": {
+    "role": "button",
+    "name": "Polestar Grapevine"
+  },
+  "continueLocationButton": {
+    "role": "button",
+    "name": "Continue"
+  }
+}
