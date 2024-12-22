@@ -22,8 +22,8 @@ jobs:
     - name: Run Playwright tests
       run: npm run test_ui
     - uses: actions/upload-artifact@v4
-      if: ${{ !cancelled() }}
+      if: always()  # Upload the artifact even if the tests fail
       with:
-        name: cucumber-report-ui
-        path: reports/cucumber-report.html
+        name: cucumber-report.html
+        path: cucumber-report.html
         retention-days: 02
