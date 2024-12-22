@@ -4,10 +4,12 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+    workflow_dispatch:
+
 jobs:
   test:
     timeout-minutes: 60
-    runs-on: ubuntu-latest
+    runs-on: windows-latest  # Use the latest version of Ubuntu
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
